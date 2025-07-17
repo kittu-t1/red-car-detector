@@ -1,0 +1,18 @@
+# Ignore virtual env
+venv/
+__pycache__/
+*.pyc
+
+# Ignore model weights and logs
+*.pt
+*.log
+
+# Ignore Streamlit temp
+.temp/
+.temp_input/
+outputs/
+output.mp4
+
+# Ignore Jupyter and other cache
+.ipynb_checkpoints/
+*.DS_Store
